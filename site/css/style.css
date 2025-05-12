@@ -1,5 +1,8 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Arial', serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 8px;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -14,9 +17,10 @@ header {
 }
 
 header img {
-    max-width: 100px;
+    max-width: 80px;
     height: auto;
 }
+
 
 nav {
     display: flex;
@@ -75,3 +79,186 @@ video{
     border: 1px solid #333;
     
 }
+
+.section-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333; 
+    margin-bottom: 0.5em;
+}
+
+.task-list {
+    list-style: none; 
+    padding-left: 0;
+}
+
+    .task-list li {
+        margin-bottom: 0.5em;
+        padding-left: 2em; 
+        position: relative; 
+        color: #333;
+    }
+
+        .task-list li i {
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #333; 
+        }
+
+.about-img {
+    max-width: 800px;
+    height: auto;
+}
+
+.index-image {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.float-right {
+    float: right; 
+    width: 300px;
+    height: auto;
+}
+
+
+.resource-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .resource-list li {
+        margin-right: 20px;
+    }
+
+.resource-image {
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.resource-list {
+    list-style-type: square; 
+}
+
+
+.resource-container {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.resource-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+    width: 60%; 
+}
+
+    .resource-card:hover {
+        transform: translateY(-3px); 
+    }
+
+    .resource-card a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    .resource-card h3 {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 1.2em;
+    }
+
+    .resource-card p {
+        margin-bottom: 0;
+        color: #777;
+    }
+
+.resource-image {
+    max-width: 20%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.post {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+    .post:hover {
+        transform: translateY(-3px);
+    }
+
+    .post h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+    }
+
+    .post .date {
+        color: #777;
+        font-size: 0.9em;
+        margin-bottom: 10px;
+    }
+
+    .post p {
+        line-height: 1.6;
+    }
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.member {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    display: flex; /* Добавляем flexbox */
+    align-items: flex-start; /* Выравниваем элементы по верхней границе */
+}
+
+    .member h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.4em;
+        color: #444;
+        margin-bottom: 0; /* Убираем отступ снизу */
+        margin-right: 20px; /* Добавляем отступ справа */
+        width: 60%; /* Задаем ширину для имени */
+    }
+
+.contribution-list {
+    text-align: left;
+    list-style: none;
+    padding-left: 0;
+    width: 70%; /* Задаем ширину для списка */
+}
+
+    .contribution-list li i {
+        margin-right: 8px;
+        color: #333;
+    }
